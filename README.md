@@ -22,4 +22,4 @@ will insert this data to DB
 
 request get http://<host>/Ad?offset=10&limit=3&age=24&gender=F&country=TW&platform=ios will use request's paremeter to search data from DB each request can be none 
 
-![System Architecture](https://drive.google.com/file/d/11vpZnwawALMcmfyJsZW6f9cnpomV4MoK/view?usp=sharing)
+![ApiServerArch drawio](https://github.com/Rayui1225/simple-api-server/assets/49279418/0ffb3e33-7277-4850-82d9-65be264c6394)
