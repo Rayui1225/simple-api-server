@@ -35,8 +35,8 @@ Fail response :
 ```
 
 ## Add new advertisement
-Method : POST
-Path : /Advertise
+Method : POST  
+Path : /Advertise  
 Request data example : 
 ```
 '{
@@ -70,12 +70,14 @@ Fail response :
 Method : GET  
 Path : /Ad  
 Parameter (Optional) :  
+```
 offset : The number of records you want to pass  
 limit : The maximum number of records to return  
 age : A specific age within the target age range for the advertisement  
 gender : The target gender for the advertisement, can be 'F' or 'M'  
 country : The target country for the advertisement, such as 'TW' or 'JP'  
-platform : The target platform for the advertisement, such as 'ios' or 'android'  
+platform : The target platform for the advertisement, such as 'ios' or 'android'
+```  
 Success response :
 ```
 [
