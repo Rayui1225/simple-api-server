@@ -3,13 +3,13 @@ This is a simple-api-server imitate Dcard Backend Intern Assignment
 Use golang(gin) + mongodb  
 
 # system design
-This system use client-server architecture 
+This system use client-server architecture  
 ![ApiServerArch drawio](https://github.com/Rayui1225/simple-api-server/assets/49279418/0ffb3e33-7277-4850-82d9-65be264c6394)
-# API endpoint
-## Get all advertisements
-Method : GET
-Path : /Advertise
-Parameter : none
+# API endpoint  
+## Get all advertisements  
+Method : GET  
+Path : /Advertise  
+Parameter : none  
 Success response :
 ```
 [
@@ -67,15 +67,15 @@ Fail response :
 ```
 
 ## Get advertisements by Parameter
-Method : GET
-Path : /Ad
-Parameter (Optional) : 
-offset : The number of records you want to pass
-limit : The maximum number of records to return
-age : A specific age within the target age range for the advertisement
-gender : The target gender for the advertisement, can be 'F' or 'M'
-country : The target country for the advertisement, such as 'TW' or 'JP'
-platform : The target platform for the advertisement, such as 'ios' or 'android'
+Method : GET  
+Path : /Ad  
+Parameter (Optional) :  
+offset : The number of records you want to pass  
+limit : The maximum number of records to return  
+age : A specific age within the target age range for the advertisement  
+gender : The target gender for the advertisement, can be 'F' or 'M'  
+country : The target country for the advertisement, such as 'TW' or 'JP'  
+platform : The target platform for the advertisement, such as 'ios' or 'android'  
 Success response :
 ```
 [
