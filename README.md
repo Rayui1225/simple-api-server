@@ -1,7 +1,7 @@
 # simple-api-server
 This is a simple-api-server imitate Dcard Backend Intern Assignment  
 Use golang(gin) + mongodb  
-
+You can also use the provided Dockerfile to package this project into a Docker image.
 # system design
 This system use client-server architecture  
 ![ApiServerArch drawio](https://github.com/Rayui1225/simple-api-server/assets/49279418/0ffb3e33-7277-4850-82d9-65be264c6394)
