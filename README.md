@@ -102,9 +102,9 @@ Fail response :
 }
 ```
 # run this project
-```git clone https://github.com/Rayui1225/simple-api-server.git```
-```cd simple-api-server```
-```go run main.go```
+```git clone https://github.com/Rayui1225/simple-api-server.git```  
+```cd simple-api-server```  
+```go run main.go```  
 # Usage example
 ```curl -X GET "http://localhost:8080/Advertise"```
 ```
