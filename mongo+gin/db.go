@@ -9,7 +9,6 @@ import (
 
 func connectDB() *mongo.Client {
     clientOptions := options.Client().ApplyURI("mongodb://localhost:27017")
-    // 连接到MongoDB
     client, err := mongo.Connect(context.TODO(), clientOptions)
     if err != nil {
         log.Fatal(err)
