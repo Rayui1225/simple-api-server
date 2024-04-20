@@ -8,7 +8,7 @@ import (
 func main() {
     router := gin.Default()
     mgoCli := connectDB()
-    defer mgoCli.Disconnect(context.TODO()) // 确保在退出main函数时断开连接
+    defer mgoCli.Disconnect(context.TODO()) 
 
     AdvertiseHandler := NewAdvertiseHandler(mgoCli)
     router.GET("/Advertise", AdvertiseHandler.GetAdvertises)
