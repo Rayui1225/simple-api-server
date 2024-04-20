@@ -41,12 +41,12 @@ func (h *AdvertiseHandler) GetAdvertises(c *gin.Context) {
 }
 
 func (h *AdvertiseHandler) getAdvertiseByCondition(c *gin.Context) {
-    offsetStr := c.Query("offset")   // 获取offset参数的值
-    limitStr := c.Query("limit")     // 获取limit参数的值
-    ageStr := c.Query("age")         // 获取age参数的值
-    gender := c.Query("gender")   // 获取gender参数的值
-    country := c.Query("country") // 获取country参数的值
-    platform := c.Query("platform") // 获取platform参数的值
+    offsetStr := c.Query("offset")   
+    limitStr := c.Query("limit")     
+    ageStr := c.Query("age")         
+    gender := c.Query("gender")  
+    country := c.Query("country") 
+    platform := c.Query("platform") 
     var Advertises []Advertise
     db := h.client.Database("Advertise")
     collection := db.Collection("Advertise")
